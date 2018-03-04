@@ -9,3 +9,5 @@ Plugin 'VundleVim/Vundle.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+source ./mybinds.vim
