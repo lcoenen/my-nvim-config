@@ -47,8 +47,8 @@ noremap <C-c> "+y
 noremap <C-i> m`$a<CR><ESC>==k``
 noremap <C-o> 0i<CR><ESC>==
 
-inoremap <c-i> <c-o>O
-inoremap <c-o> <c-o>o
+inoremap <A-i> <c-o>O
+inoremap <A-o> <c-o>o
 
 "imap <C-i> <ESC>m`$a<CR><ESC>==k``i " CAUSE TABULATION PROBLEM
 imap <C-o> <ESC>0i<CR><ESC>==i
