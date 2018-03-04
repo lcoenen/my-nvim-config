@@ -13,8 +13,8 @@ Plugin 'tpope/vim-commentary'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-source ./mybinds.vim
-source ./indent.vim
+runtime ./mybinds.vim
+runtime ./indent.vim
 
 au BufRead,BufNewFile *.ts   setfiletype typescript
 autocmd FileType typescript setlocal commentstring=// %s
