@@ -1,5 +1,4 @@
 
-au BufRead,BufNewFile *.ts   setfiletype typescript
 set noswapfile
 
 "Clear selection
@@ -41,6 +40,9 @@ noremap <C-v> "+p
 imap <C-v> <ESC>"+pi
 noremap <C-c> "+y
 
+
+
+
 " Open and delete returns
 
 "" And stay on the same line
@@ -56,15 +58,15 @@ imap <C-o> <ESC>0i<CR><ESC>==i
 noremap <C-j> $a<CR><ESC>==a
 noremap <C-k> 0i<CR><ESC>k==a
 
-imap <C-j> $a<CR><ESC>==a
-imap <C-k> 0i<CR><ESC>k==a
+"imap <C-j> $a<CR><ESC>==a
+"imap <C-k> 0i<CR><ESC>k==a
 
 " Delete the previous and next line
 
 noremap <C-p> kdd
 noremap <C-u> m`jdd``
 
-imap <C-p> <ESC>kddi
+"imap <C-p> <ESC>kddi
 imap <C-u> <ESC>km`jdd``i
 
 " Move up and down
