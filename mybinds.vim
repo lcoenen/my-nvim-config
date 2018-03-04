@@ -97,3 +97,5 @@ set invnumber
 
 set statusline+=%F
 
+setlocal omnifunc=syntaxcomplete#Complete
+
