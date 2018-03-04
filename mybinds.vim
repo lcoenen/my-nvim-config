@@ -40,15 +40,15 @@ noremap <C-v> "+p
 imap <C-v> <ESC>"+pi
 noremap <C-c> "+y
 
-
-
-
 " Open and delete returns
 
 "" And stay on the same line
 
 noremap <C-i> m`$a<CR><ESC>==k``
 noremap <C-o> 0i<CR><ESC>==
+
+inoremap <c-i> <c-o>O
+inoremap <c-o> <c-o>o
 
 "imap <C-i> <ESC>m`$a<CR><ESC>==k``i " CAUSE TABULATION PROBLEM
 imap <C-o> <ESC>0i<CR><ESC>==i
@@ -77,6 +77,8 @@ inoremap <A-j> <Esc>:m .+1<CR>==gi
 inoremap <A-k> <Esc>:m .-2<CR>==gi
 vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
+
+:noremap t i <Esc>r
 
 " Use - instead of $
 
