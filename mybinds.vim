@@ -50,7 +50,7 @@ noremap <C-c> "+y
 noremap <C-i> m`$a<CR><ESC>==k``
 noremap <C-o> 0i<CR><ESC>==
 
-imap <C-i> <ESC>m`$a<CR><ESC>==k``i
+"imap <C-i> <ESC>m`$a<CR><ESC>==k``i
 imap <C-o> <ESC>0i<CR><ESC>==i
 
 "" And edit
