@@ -6,9 +6,14 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
+
 Plugin 'sheerun/vim-polyglot'
+Plugin 'tpope/vim-commentary'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 source ./mybinds.vim
+
+au BufRead,BufNewFile *.ts   setfiletype typescript
+autocmd FileType typescript setlocal commentstring=// %s
