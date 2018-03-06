@@ -5,7 +5,10 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'Shougo/deoplete.nvim'
+
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'wellle/tmux-complete.vim'
 
 Plugin 'sheerun/vim-polyglot'
 Plugin 'tpope/vim-commentary'
@@ -18,3 +21,5 @@ runtime ./indent.vim
 
 au BufRead,BufNewFile *.ts   setfiletype typescript
 autocmd FileType typescript setlocal commentstring=// %s
+
+let g:deoplete#enable_at_startup = 1
