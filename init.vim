@@ -9,6 +9,7 @@ Plugin 'Shougo/deoplete.nvim'
 Plugin	'joereynolds/vim-minisnip'
 
 Plugin 'VundleVim/Vundle.vim'
+
 Plugin 'wellle/tmux-complete.vim'
 
 Plugin 'sheerun/vim-polyglot'
@@ -19,10 +20,10 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
+Plugin 'Raimondi/delimitMate'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
-
 
 runtime ./mybinds.vim
 runtime ./indent.vim
@@ -33,7 +34,6 @@ autocmd FileType typescript setlocal commentstring=// %s
 let g:deoplete#enable_at_startup = 1
 
 colorscheme delek
-
 
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
