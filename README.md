@@ -18,5 +18,6 @@ Currently (version Augustus), my config uses the following project
 * [wellle/tmux-complete.vim](https://github.com/wellle/tmux-complete.vim)
 * [sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot)
 * [tpope/vim-commentary](https://github.com/tpope/vim-commentary)
+* [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline)
 
 In addition, a set of customer binds are contained inside the my-binds branch. 
