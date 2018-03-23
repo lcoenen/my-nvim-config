@@ -44,7 +44,7 @@ noremap <C-c> "+y
 
 "" And stay on the same line
 
-noremap <C-i> m`$a<CR><ESC>==k``
+"noremap <C-i> m`$a<CR><ESC>==k``
 noremap <C-o> 0i<CR><ESC>==
 
 inoremap <A-i> <c-o>O
