@@ -19,5 +19,6 @@ Currently (version Augustus), my config uses the following project
 * [sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot)
 * [tpope/vim-commentary](https://github.com/tpope/vim-commentary)
 * [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline)
+* [Raimondi/delimitMate](https://github.com/Raimondi/delimitMate)
 
 In addition, a set of customer binds are contained inside the my-binds branch. 
