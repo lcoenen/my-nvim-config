@@ -7,5 +7,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
+Plugin 'flazz/vim-colorschemes'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
