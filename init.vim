@@ -14,6 +14,8 @@ Plugin 'wellle/tmux-complete.vim'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'tpope/vim-commentary'
 
+Plugin 'flazz/vim-colorschemes'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -24,3 +26,5 @@ au BufRead,BufNewFile *.ts   setfiletype typescript
 autocmd FileType typescript setlocal commentstring=// %s
 
 let g:deoplete#enable_at_startup = 1
+
+colorscheme delek
