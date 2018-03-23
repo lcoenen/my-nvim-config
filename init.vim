@@ -6,6 +6,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'Shougo/deoplete.nvim'
+Plugin	'joereynolds/vim-minisnip'
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'wellle/tmux-complete.vim'
